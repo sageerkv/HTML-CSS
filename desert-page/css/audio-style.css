@@ -1,0 +1,78 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color:whitesmoke;
+    display: block;
+}
+.h11{
+    color:#fff1e1;
+    text-align: center;
+    padding: 20px;
+    font-size: 35px;
+    font-family:'Marck Script';
+    background-color:#1d3c45;
+    margin: auto;
+    position: relative;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+.id{
+    color:#d2601a;
+}
+.ad1{
+    text-align: center;
+    margin: auto;
+    border-radius: 6px;
+    width: 70%;
+    max-width: 900px;
+    padding: 200px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #ffeded9d;
+    margin-bottom: 50px;
+    box-shadow: 0px 8px 16px 8px rgba(0,0,0,0.2);
+    text-indent: 25px;
+    line-height: 300px;
+}
+.cn1 {
+    text-indent: 20px;
+    line-height: 100px;
+    text-align: center;
+    font-size: 40px;
+    color:#1d3c45;
+}
+audio::-webkit-media-controls-panel {
+    background-color: #0000004e;
+  }
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #26495c;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+li {
+    float: left;
+}
+  
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 128.44px;
+    text-decoration: none;
+    font-family:Arial, Helvetica,serif;
+    font-size: 16px;
+}
+li a:hover:not(.active) {
+    background-color: #e5e5dc;
+    color: #1d3c45;
+  }
+.active {
+    background-color: #c10d00;
+}
