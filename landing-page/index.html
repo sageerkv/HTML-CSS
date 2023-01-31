@@ -14,6 +14,8 @@
 <body>
     
     <section class="sec">
+        
+        <!-- navigation section -->
         <header>
             <a href="#"><img src="IMG/LOGO.png" alt="LOGO" class="logo"></a>
             <ul>
@@ -24,6 +26,8 @@
                 <li><a href="#">Contact</a></li>
             </ul>
         </header>
+
+        <!-- content section -->
         <div class="content">
             <div class="textbox">
                 <h2>The flavour of<br><span>healthy</span></h2>
@@ -35,15 +39,20 @@
                 </p>
                 <a href="#">View all Products</a>
             </div>
+            <!-- product picture -->
             <div class="imgbox">
                 <img src="img/product-1.png" alt="product-1" class="th">
             </div>
         </div>
+
+        <!-- products section -->
         <ul class="products">
             <li><img src="img/product-1.png" alt="product-1" onclick="imgSlider('img/product-1.png');changeBgColor('#04AA6D')"></li>
             <li><img src="img/product-2.png" alt="product-2" onclick="imgSlider('img/product-2.png');changeBgColor('#71797E')"></li>
             <li><img src="img/product-3.png" alt="product-3" onclick="imgSlider('img/product-3.png');changeBgColor('#C70039')"></li>
         </ul>
+
+        <!-- icon section -->
         <ul class="icon">
             <li><a href="#"><img src="img/facebook.png" alt="facebook"></a></li>
             <li><a href="#"><img src="img/twitter.png" alt="twitter"></a></li>
@@ -51,6 +60,8 @@
             <li><a href="#"><img src="img/snapchat.png" alt="snapchat"></a></li>
         </ul>
     </section>
+
+    <!-- script -->
     <script type="text/javascript">
         function imgSlider(anything){
             document.querySelector('.th').src = anything;
