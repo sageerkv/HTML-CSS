@@ -1,2 +1,2 @@
 # HTML-CSS
-# Various projects done in Html & Css
+# Various projects are completed in HTML & CSS
